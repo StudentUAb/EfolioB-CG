@@ -1,0 +1,7 @@
+version: '3'
+services:
+  web:
+    # Build from the Dockerfile in the current directory
+    build: .
+    ports:
+      - "8081:8081" # Bind the host's port 8080 to the container's port 80
