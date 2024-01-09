@@ -1,0 +1,42 @@
+/*  style.css */
+
+/* Painel de control */
+body { margin: 0; }
+canvas { display: block; }
+#controlPanel {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+}
+/* Painel de cores */
+#colorDisplay {
+    width: 50px;
+    height: 20px;
+    border: 1px solid #000;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+#keyInstructions {
+    margin-top: 10px; /* Espaço acima da seção de instruções */
+}
+
+#keyInstructions p {
+    font-weight: bold; /* título das instruções negrito */
+    margin-bottom: 5px; /* Espaço abaixo do título das instruções */
+}
+
+#keyInstructions ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão */
+}
+
+#keyInstructions li {
+    margin-bottom: 5px; /* Espaço entre os itens da lista */
+}

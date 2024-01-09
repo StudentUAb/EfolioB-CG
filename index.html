@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EfolioB de: Ivo Baptista - 2100927</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- Sliders para controlar os parâmetros do terreno -->
+    <div id="controlPanel">
+        <label for="controleDeformacao">Deformação do Terreno:</label>
+        <input id="controleDeformacao" type="range" min="0" max="3" step="0.01" value="0.1">
+        <br>
+        <label for="amplitudeControl">Amplitude do Terreno:</label>
+        <input id="amplitudeControl" type="range" min="1" max="4" step="0.1" value="2">
+        <br>
+        <label for="alturaSolControl">Altura do Sol:</label>
+        <input id="alturaSolControl" type="range" min="-5" max="10" step="0.1" value="5">
+        <br>
+        <label for="orbitaSolControl">Órbita do Sol:</label>
+        <input id="orbitaSolControl" type="range" min="10" max="50" step="1" value="12">
+        <br>
+        <label for="fogDensityControl">Densidade da Neblina:</label>
+        <input id="fogDensityControl" type="range" min="0" max="0.1" step="0.001" value="0.002">
+        <br>
+        <label for="cameraViewControl">Visão da Câmera:</label>
+        <input id="cameraViewControl" type="range" min="5" max="30" step="0.1" value="10">
+        <br>
+        <label for="colorControl">Cor do Terreno:</label>
+        <input id="colorControl" type="color" value="#33ff33">
+        <div id="colorDisplay" style="background-color: #33ff33;"></div>
+        <div id="keyInstructions">
+            <p>Teclas de Atalho:</p>
+            <ul>
+                <li><b>A</b> - Terreno aleatório</li>
+                <li><b>R</b> - Restaura valores</li>
+                <li><b>S</b> - Stop/Start do sol e da lua</li>
+                <li><b>C</b> - Câmera com vista da lua</li>
+            </ul>
+        </div>
+    </div>
+    <script type="module" src="./src/main.js"></script>
+</body>
+</html>
