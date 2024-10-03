@@ -19,7 +19,7 @@ Funcionamento de Three.js
 
 <pre>docker compose up -d </pre>
 
-Demo: [http://server.ivo.com.pt:8082](http://server.ivo.com.pt:8082)
+Demo: [http://server.ivo.com.pt:3000](http://server.ivo.com.pt:3000/)
 
 Video: [https://youtu.be/Dbs-P95D0Q4](https://youtu.be/wdyRhklgEso)
 
